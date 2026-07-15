@@ -25,6 +25,13 @@
     >
       Search
     </button>
+     <button
+      class="btn btn-info"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#cart-canvas"
+    >
+      cart
+    </button>
 
     <div
       class="offcanvas offcanvas-top"
@@ -51,6 +58,36 @@
       </div>
     </div>
 
+
+      <div
+      class="offcanvas offcanvas-top"
+      style="height: 500px"
+      id="cart-canvas"
+    >
+      <div class="offcanvas-header">
+        <h2>CartList</h2>
+        <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+      
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="cartDatashow">
+            
+          </tbody>
+        </table>
+
+        
+    </div>
+    </div>
     <div class="row" id="showData"></div>
   </body>
   <script src="../script/home.js"></script>
