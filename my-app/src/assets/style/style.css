@@ -1,0 +1,21 @@
+/* h1{
+    background-color: green;
+    color: red;
+} */
+
+#header{
+    height: 10vh;
+    background-color: rgb(175, 227, 227);
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer{
+height: 10vh;
+    background-color: rgb(175, 227, 227);
+}
+
+#home,#about,#contact{
+    height: 80vh;
+    background-color: rgb(219, 175, 227);
+}
